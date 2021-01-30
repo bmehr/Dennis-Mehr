@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "For best experience click here to go full screen >>>",
+"productVersion": "0.1",
+"dataUrl": "Build1-29-21.data.unityweb",
+"wasmCodeUrl": "Build1-29-21.wasm.code.unityweb",
+"wasmFrameworkUrl": "Build1-29-21.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.16f1"
+}
