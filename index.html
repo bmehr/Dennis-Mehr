@@ -10,13 +10,17 @@
     <script src="Build/UnityLoader.js"></script>
     <script>
         var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build1-29-21.json", {onProgress: UnityProgress});
+ 
+	  function Reset()
+    {
+                 Var canvas = document.getElementById("#canvas");//Get #canvas
+                 Canvas.height= document.documentElement.clientHeight;//Get the height of the visible area of ​​the body
+                 Canvas.width = document.documentElement.clientWidth;//Get the height of the visible area of ​​the body
+    } 
     </script>
-</head>
-<body>
-<div class="webgl-content">
-    <div id="gameContainer" style="width: 1280px; height: 720px"></div>
-</div>
-<div class="simmer">template by: <a href="https://simmer.io" target="_blank">SIMMER.io</a></div>
-<script src="TemplateData/responsive.javascript"></script>
+  </head>
+     The code for the --body part is copied directly into index.html
+  <body onresize="Reset()",scroll=no,style="overflow:hidden">
+      <div id="gameContainer" style="width:100vw; height:100wh:margin:auto"></div>
 </body>
 </html>
